@@ -1,0 +1,28 @@
+name: "night market diy guidelines"
+output_dir: '.'
+output:
+  html_document:
+    theme: flatly
+    css: style.css
+    lib_dir: site_libs
+    self_contained: no
+navbar:
+  title: night market DIY guides
+  left:
+  - text: home
+    href: index.html
+  - text: mission
+    href: mission.html
+  - text: values
+    href: values.html
+  - text: donate
+    href: donate.html
+  - text: get in touch
+    menu:
+    - icon: fa-instagram
+      href: https://www.instagram.com/davisnightmarket/
+    - icon: fa-twitter
+      href: https://twitter.com/DavisNightMrkt
+    - icon: fa-envelope
+      href: mailto:nightmarket@freedge.org
+      
