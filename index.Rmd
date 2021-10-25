@@ -1,11 +1,13 @@
 ---
-title: "night market"
+title: "THE NIGHT MARKET"
 output: html_document
 ---
 
-</h4><div class="main-photo"><img src="photos/1S9A8421.jpg"></div></h4>
+#### The Night Market is an environmentally sustainable community-based initiative that recovers excess high-quality prepared food and directly redistributes it to feed local communities in a stigma-free environment, directly addressing both food waste and food access. 
 
 
-The Night Market is an environmentally sustainable community-based initiative that recovers excess high-quality prepared food and directly redistributes it to feed local communities in need daily in a stigma-free environment, directly addressing both food waste and food access. 
+</h4><div class="main-photo"><img src="photos/1S9A8420.jpg"></div></h4>
 
-Our broader mission is to empower other communities to start their own local food recovery systems. Here we provide guidelines and tutorials that can walk you through the steps of establishing our system in other cities. Some of these resources are already available on the [Freedge Yourself webpage](https://freedge.org/freedge-yourself/)
+
+
+

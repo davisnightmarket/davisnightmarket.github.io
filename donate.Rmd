@@ -1,0 +1,12 @@
+---
+title: "DONATE"
+output:
+  html_document
+---
+## become a donor!!
+email us at 
+<a href = "mailto: nightmarket@freedge.org"> nightmarket@freedge.org</a> and we'll get back to you ASAP!!!!!!
+
+## pay us money!
+
+[GoFundMe](https://www.gofundme.com/f/davis-night-market-fund)

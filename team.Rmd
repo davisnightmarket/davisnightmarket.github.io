@@ -1,0 +1,70 @@
+---
+title: "TEAM"
+output:
+  html_document
+---
+
+### Val and Ernst
+<img title = "Val and Ernst" class="avatar" src="team/IMG_4234.PNG" alt="Avatar" width="250" height="250">
+
+```{css, echo= FALSE}
+.avatar{
+  border-radius: 50%;
+}
+```
+
+### Sai
+<div><img class="avatar" src="team/IMG-7540.jpg" alt="Avatar" width="250" height="250">
+
+```{css, echo= FALSE}
+.avatar{
+  border-radius: 50%;
+}
+```
+
+### Sabrina
+<div><img class="avatar" src="team/Sabrina.JPG" alt="Avatar" width="250" height="250" >
+
+```{css, echo= FALSE}
+.avatar{
+  border-radius: 50%;
+}
+```
+
+### Ania 
+<div><img class="avatar" src="team/Ania Kawiecki.png" alt="Avatar" width="250" height="250">
+
+```{css, echo= FALSE}
+.avatar{
+  border-radius: 50%;
+}
+```
+
+
+### Max
+<div><img class="avatar" src="team/Max.png" alt="Avatar" width="250" height="250">
+
+```{css, echo= FALSE}
+.avatar{
+  border-radius: 50%;
+}
+```
+
+### Ukelele Joe
+<div><img class="avatar" src="team/UkeleleJoe.png" alt="Avatar" width="250" height="250">
+
+```{css, echo= FALSE}
+.avatar{
+  border-radius: 50%;
+}
+```
+
+### Ri
+<div><img class="avatar" src="team/Ri.png" alt="Avatar" width="250" height="250">
+
+```{css, echo= FALSE}
+.avatar{
+  border-radius: 50%;
+}
+```
+

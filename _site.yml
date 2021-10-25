@@ -7,24 +7,30 @@ output:
     lib_dir: site_libs
     self_contained: no
 navbar:
-  title: night market DIY guides
+  title: the night market
   left:
-  - text: home
-    href: index.html
   - text: mission
     href: mission.html
-  - text: values
-    href: values.html
-  - text: team
-    href: team.html
+  - text: donors
+    href: donors.html
   - text: donate
     href: donate.html
+  - text: diy
+    href: diy.html
+  - text: team
+    href: team.html
   - text: get in touch
     menu:
+    - icon: fa-envelope
+      href: mailto:nightmarket@freedge.org
     - icon: fa-instagram
       href: https://www.instagram.com/davisnightmarket/
     - icon: fa-twitter
       href: https://twitter.com/DavisNightMrkt
-    - icon: fa-envelope
-      href: mailto:nightmarket@freedge.org
+    - icon: fa-facebook
+      href: https://www.facebook.com/davisnightmarket
+    
       
+      
+
+

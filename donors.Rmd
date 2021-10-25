@@ -1,0 +1,69 @@
+---
+title: "DONORS"
+output:
+  html_document
+---
+
+#### Look for this sticker on windows in town to know a business is our partner! 
+
+</h4><div class="main-photo"><img src="photos/NightMarketPartnerSticker.png"></div></h4>
+
+
+### Meet the amazing businesses that are contributing to their community in Davis, CA. Thank you all!!
+
+
+
+<br>
+ <p style="text-align:center;">
+      <a href="https://www.gochickpeas.com/">
+         <img src="donors/chickps.png" style="width:150px;height:100px;">
+      </a></p>
+
+
+<br>
+<p style="text-align:center;">
+      <a href="https://www.sophiasthaikitchen.com/">
+        <img src="donors/sophias.png"style="width:150px;height:100px;">
+      </a>
+      </p>
+
+<br>
+ <p style="text-align:center;">
+      <a href="https://davisfood.coop/">
+         <img src="donors/coop.png"style="width:100px;height:100px;">
+      </a></p>
+
+
+
+<br>
+<p style="text-align:center;">
+      <a href="https://locations.panerabread.com/ca/davis/609-3rd-st.html">
+        <img src="donors/panera.jpg"style="width:150px;height:100px;">
+      </a></p>
+
+
+<br>
+<p style="text-align:center;">
+      <a href="https://www.yelp.com/biz/village-bakery-davis">
+        <img src="donors/VillageBakery.png"style="width:150px;height:100px;">
+      </a></p>
+      
+<br>
+<p style="text-align:center;">
+      <a href="https://www.capayfarms.com/">
+        <img src="donors/capay.png"style="width:150px;height:100px;">
+      </a></p>
+<br>
+<p style="text-align:center;">
+      <a href="https://locations.noahs.com/us/ca/davis/1411-w-covell-blvd">
+        <img src="donors/noahs.png"style="width:150px;height:100px;">
+      </a></p>
+
+<br>
+<p style="text-align:center;">
+      <a href="https://locations.peets.com/ll/US/CA/Davis/231-E-Street">
+        <img src="donors/peets.png"style="width:150px;height:100px;">
+      </a></p>
+
+
+
