@@ -19,6 +19,12 @@ navbar:
     href: diy.html
   - text: team
     href: team.html
+  - text: how to do night market
+    href: food_recovery.html
+  - text: legal
+    href: legal.html  
+  - text: build stuff
+    href: bikecart.html    
   - text: get in touch
     menu:
     - icon: fa-envelope
