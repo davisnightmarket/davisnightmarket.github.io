@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>HOW TO DO NIGHT MARKET</title>
+
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.tab('show');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">the night market</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="mission.html">mission</a>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    DIY
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="how_to_nm.html">how to do food recovery</a>
+    </li>
+    <li>
+      <a href="build_stuff.html">build night market stuff</a>
+    </li>
+    <li>
+      <a href="legal.html">how to do night market legally (optional)</a>
+    </li>
+  </ul>
+</li>
+<li>
+  <a href="team.html">team</a>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    get in touch
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="mailto:nightmarket@freedge.org">
+        <span class="fa fa-envelope"></span>
+         
+      </a>
+    </li>
+    <li>
+      <a href="https://www.instagram.com/davisnightmarket/">
+        <span class="fa fa-instagram"></span>
+         
+      </a>
+    </li>
+    <li>
+      <a href="https://twitter.com/DavisNightMrkt">
+        <span class="fa fa-twitter"></span>
+         
+      </a>
+    </li>
+    <li>
+      <a href="https://www.facebook.com/davisnightmarket">
+        <span class="fa fa-facebook"></span>
+         
+      </a>
+    </li>
+  </ul>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">HOW TO DO NIGHT MARKET</h1>
+
+</div>
+
+
+<div id="food-recovery" class="section level1">
+<h1><strong>FOOD RECOVERY</strong></h1>
+<div id="you-need" class="section level2">
+<h2>YOU NEED</h2>
+<div id="materials" class="section level3">
+<h3>Materials</h3>
+<p><strong>Equipment, utensils and food containers must all be food-grade!!</strong></p>
+<ul>
+<li><p>Boxes: carboard, food-grade</p></li>
+<li><p>Hand sanitizer</p></li>
+<li><p>Utensils: store these in a plastic bag or a ziploc and clean them when you’re done</p>
+<ul>
+<li>spoons</li>
+<li>ladles</li>
+<li>tongs</li>
+</ul></li>
+<li><p>Sharpie</p></li>
+<li><p>Paper towels/napkins</p></li>
+<li><p>Table cover</p></li>
+</ul>
+<p>COVID precautions require</p>
+<ul>
+<li>Gloves</li>
+<li>Mask</li>
+</ul>
+</div>
+<div id="team" class="section level3">
+<h3>Team</h3>
+<p>Recommended 2 people per location, to minimize the time spent distributing food into boxes. It is recommended to have the same people performing the same pick-ups to establish rapport with the establishment’s employees. In addition, calling the donor business in advance to ask if they have anything to offer is good practice.</p>
+</div>
+<div id="transport" class="section level3">
+<h3>Transport</h3>
+<p>At Night Market we’re committed to sustainability: we believe that burning fossil fuels to prevent food waste from emitting methane in a landfill is something of an oxymoron. That’s why, where local bike infrastructure allows, we perform all food pick-ups using bike trailers. To learn how to build your own LED-lit bike trailer, check out the section on <a href="https://davisnightmarket.github.io/diy/build">how to build night market stuff</a></p>
+</div>
+</div>
+<div id="how-to" class="section level2">
+<h2>HOW TO</h2>
+<div id="how-to-find-donors" class="section level3">
+<h3><strong>How to find donors</strong></h3>
+<p>Check out the section on <a href="">restaurant recruitment</a></p>
+</div>
+<div id="how-to-choose-a-time-and-place-for-the-event" class="section level3">
+<h3><strong>How to choose a time and place for the event</strong></h3>
+</div>
+<div id="how-to-serve-food" class="section level3">
+<h3><strong>How to serve food</strong></h3>
+<p style="text-align:center;">
+<img src="photos/1S9A8363.jpg" style="width:500px;height:400px;">
+<p>
+<p>If required by the business, call previously to ask if they have donations.</p>
+<ol style="list-style-type: decimal">
+<li><p>Contain your hair, put on gloves and apply hand sanitizer</p></li>
+<li><p>Portion food into individual boxes</p>
+<ul>
+<li>using food-grade utensils</li>
+<li>the boxes should be food-grade and compostable</li>
+</ul>
+<p><img src="photos/portioning.jpeg" style="width:100px;height:100px;" ></p></li>
+<li><p>Label the boxes with the contents</p>
+<p>The more detail, the less impulse people will have to open the boxes to see what is inside, which is against the health code.</p></li>
+<li><p>Clean the space</p>
+<p>Important in order to maintain the goodwill of the donor businesses.</p></li>
+<li><p>Load your bike trailer and go! :)</p></li>
+<li><p>Unload at distribution location</p></li>
+<li><p>Put on gloves and apply hand sanitizer again</p></li>
+<li><p>Serve the food to the customers</p>
+<ul>
+<li>consumers should not open boxes, if they do, they have to keep them.</li>
+<li>food must be covered and protected</li>
+</ul></li>
+</ol>
+<div id="covid-precautions" class="section level4">
+<h4>COVID precautions</h4>
+<p>To avoid causing aglomerations of people around the food, our current system is to spread the food out on a long wall, where night market volunteers stand on one side and the consumers line up on the other. Then consumers approach the wall one by one, volunteers describe and illuminate the food items and hand the desired items to the consumer individually, using tongs and wearing gloves.</p>
+</div>
+</div>
+<div id="how-to-comply-with-ca-health-permit-requirements" class="section level3">
+<h3><strong>How to comply with CA health permit requirements</strong></h3>
+<p>The Night Market event shouldn’t last more than 4 hours, as that is the maximum time perishable food can be outside of refrigeration, and also the maximum time food can be served outdoors.</p>
+<p>Our Davis Night Market lasts 2 hours, from 9-11PM, as this is the time most businesses close and we recover food at closing time.</p>
+<div id="do-we-need-food-safety-training" class="section level4">
+<h4><strong>Do we need food safety training?</strong></h4>
+<p>Nope, it’s not required, you just need to follow Best Management practices (BMP). Here’s a summary of those provided by our own Yolo County (<a href="docs/LSCFO_flowchart.pdf" target="_blank">BMP </a>), but I’m going to go over the key aspects below.</p>
+</div>
+<div id="where-can-food-be-served" class="section level4">
+<h4><strong>Where can food be served?</strong></h4>
+<p>Outdoors <strong>for up to 4h a day</strong>.</p>
+</div>
+<div id="what-food-can-be-served" class="section level4">
+<h4><strong>What food can be served?</strong></h4>
+<p>Everything (including expired food)</p>
+<p><strong>Exceptions</strong></p>
+<ul>
+<li><p>Cooked food from unregistered home kitchens</p>
+<ul>
+<li>“microenterprise” home kitchens are allowed (see <a href="https://foodnome.com/">Foodnome</a>)</li>
+<li>commercially pre-packaged foods, baked goods are allowed.</li>
+</ul></li>
+<li><p>Salvage operations (So i guess no dumpster diving treasures :( )</p></li>
+<li><p>Expired baby food and infant formula.</p></li>
+</ul>
+</div>
+<div id="food-storage" class="section level4">
+<h4><strong>Food storage</strong></h4>
+<p>THIS IS IMPORTANT !!!</p>
+<p><strong>Potentially hazardous food (PHF)</strong>: (i.e., deli meats, dairy products, cooked meats, cooked rice, cooked vegetables, etc.) are perishable and must be kept at 41°F or below. They can leave cold storage for:</p>
+<ul>
+<li>up to 30 minutes for transport</li>
+<li>up to 2 hours for active preparation or portioning</li>
+<li>up to 4 hours at a time in total. <strong>After 4h they should be served immediately or dumped.</strong></li>
+</ul>
+<p><img src="photos/perishable_food_timing.png" style="width:300px;height:300px;" align="center"></p>
+</div>
+</div>
+</div>
+</div>
+<div id="community" class="section level1">
+<h1><strong>COMMUNITY</strong></h1>
+<p>Building community is one of the goals of Night Market. Food brings people together, and at Night Market we seek to welcome folx from all walks of life. Making the redistribution of donated food an enjoyable experience where we can gather, get to know each other and share a meal helps alleviate the stigma associated with food insecurity and free things (because capitalism).</p>
+<p>Talking with and showing love to strangers might be the most important part of Night Market; people are often not just hungry for food but for company, and this was especially clear during the pandemic.</p>
+<div id="you-need-1" class="section level2">
+<h2>YOU NEED</h2>
+<div id="materials-1" class="section level3">
+<h3>Materials</h3>
+<ul>
+<li>Speaker</li>
+</ul>
+<p>For music!!</p>
+<ul>
+<li>LED lights</li>
+</ul>
+<p>People will see the event at night and creates a vibe</p>
+</div>
+<div id="team-1" class="section level3">
+<h3>Team</h3>
+<p>It’s helpful to have “greeters” or “welcomers”, that is, team members with the specific role of engaging with the community apart from those serving the food.</p>
+</div>
+</div>
+<div id="how-to-1" class="section level2">
+<h2>HOW TO</h2>
+<p>PARTY!!</p>
+</h4>
+<div class="main-photo">
+<img src="photos/1S9A8421.jpg">
+</div>
+</h4>
+</div>
+</div>
+<div id="donor-recruitment" class="section level1">
+<h1><strong>DONOR RECRUITMENT</strong></h1>
+<div id="how-to-2" class="section level2">
+<h2>HOW TO</h2>
+<p>Make a database of all possible donors. Include:</p>
+<ul>
+<li>closing time</li>
+<li>contact (email/phone of establishment)</li>
+<li>name of manager</li>
+<li>when manager’s in the establishment</li>
+<li>status of contact (have you emailed them, have you gone in person, what did they say)</li>
+<li>if they’ve agreed to donate or not</li>
+</ul>
+<div id="email" class="section level3">
+<h3>email</h3>
+<ul>
+<li><p>Emails should be sent from the oficial night market email.</p></li>
+<li><p>Link your website or social media to show legitimacy.</p></li>
+</ul>
+<p>Here’s an email template:</p>
+<p>Dear (contact name):</p>
+<p>This is (your name), (your role) of the [insert your location] Night Market. I’m contacting you to invite your (restaurant/grocery store/bakery) (name of establishment) to participate in our food recovery program. We are a non-profit organization that has been active in Davis since 2019, reducing food waste and food insecurity in our community. We recover food that would otherwise go to waste from various businesses in Davis at closing time, and immediately take it to Central Park to redistribute it freely to those in need.</p>
+<p>We currently hold a Food Service permit from [insert your location] County that allows us to distribute pre-cooked food items, as well as produce and non-perishables. All donations are legally covered by the Federal Good Samaritan Food Donation Law of 2018, protecting the donating business. All you have to do is give us a time and have your left-overs ready for us, and we’ll show up and do the rest. Our volunteers are in charge of portioning the food into compostable containers and transporting it to the [insert your location] using bike trailers, because, yes, we also strive for making our activities zero emissions!</p>
+<p>During the pandemic we have had an increase of people seeking our service and are looking to increase our offerings. Do you want to join the [insert your donors] in helping your community and the environment? It’s easy! Currently, we hold our events four nights a week (Monday through Friday), and we can accommodate one or all of these nights.</p>
+<p>Looking forward to hearing from you! (your name)</p>
+</div>
+<div id="visit-establishments-in-person" class="section level3">
+<h3>visit establishments in person</h3>
+<div id="you-need-2" class="section level4">
+<h4>YOU NEED</h4>
+<ul>
+<li><a href="docs/liability_flowchart.pdf" target="_blank"><strong>liability flow chart</strong> </a></li>
+<li>marketing flyer: with email and website (to look legit)</li>
+<li>copy of the health permit</li>
+</ul>
+</div>
+<div id="how-to-3" class="section level4">
+<h4>HOW TO</h4>
+<p>Ask to speak to the manager. Always make a good first impression</p>
+<p>Template of in person pitch:</p>
+<p>Hi, my name is [___________] , may I speak to the restaurant owner? I am with the Davis Night Market and our non-profit organization recovers leftover food at the end of the night from restaurants around town to reduce waste, and feed the people in need. We are partnered with the Yolo County Food Bank and UC Davis and received our permit from Yolo County. I just wanted to ask you, what do you do with the leftovers once your restaurant closes?</p>
+<p>(restaurant owner answers)</p>
+<p>I wanted to extend this opportunity to you to partner with us and join other restaurants in reducing waste on your end, and letting us do the work in packaging the leftovers, and feeding our people right here in Davis. As an exchange, we will assist with increasing your Yelp Reviews along with the opportunity to use this as a tax write off. Let me go over the liability flowchart with you</p>
+<p>(show restaurant owner how this flowchart works)</p>
+</div>
+</div>
+</div>
+<div id="liability" class="section level2">
+<h2>liability</h2>
+<p>Here’s a handy <a href="docs/liability_flowchart.pdf" target="_blank"><strong>LIABILITY FLOW CHART</strong> </a> to assuage donor’s fears regarding liability. For more info check out our section on <a href="https://davisnightmarket.github.io/diy/legal#liability">liability</a></p>
+</div>
+<div id="donor-faqs" class="section level2">
+<h2>donor FAQs</h2>
+<p>DO YOU HAVE A PERMIT?</p>
+<p>Yes, we do! We received our permit from Yolo County as well as an event permit from the city of Davis.</p>
+<p>UNDER WHAT CATEGORY LEVEL ARE YOU?</p>
+<p>We are under category 2 of LSCFO (limited service charitable feeding operation) where we only accept the prepared foods.</p>
+<p>AM I GOING TO BE LIABLE?</p>
+<p>No, you will not be liable! You are protected by the Federal Good Samaritan Food Donation Act (AB-1219), which says you can’t be sued for giving away food to a non-profit.</p>
+<p>I WOULD LIKE TO USE THIS DONATION OPPORTUNITY AS A TAX WRITE OFF:</p>
+<p>You sure can! Please email us at <a href="mailto:nightmarket@freedge.org" class="email">nightmarket@freedge.org</a></p>
+<p>WHO DOES THE PACKAGING? I DO NOT WANT MY OWN WORKERS TO PACKAGE:</p>
+<p>Not to worry! Our volunteers will do all the work in packaging and you do not have to lift a finger on your end.</p>
+<p>WHO PROVIDES THE PACKAGING BOXES? THIS WILL CUT INTO MY PROFITS IF I PROVIDE MY BOXES:</p>
+<p>Nothing will cost you! We provide our own small package boxes during this process, however, if you want to use your own packaging to promote your brand, you may do so.</p>
+<p>I DONATE FOOD ALL THE TIME, WHY SHOULD I DONATE WITH YOU?</p>
+<p>Donating to us feeds our friends in the community. Not only does your contribution help them, but we are also helping you eliminate food waste at the end of the day. Composting can be very expensive, we are helping you eliminate that extra leg work to do that.</p>
+<p>WHAT ENSURES THAT YOUR NONPROFIT IS LEGITIMATE?</p>
+<p>We are a sister npo to Freedge and are partnered with the Aggie Compass, an initiative of UC Davis, Food Recovery Network, a student organization at UC Davis, the UC Davis Pantry, as well as Land&amp;Ladle.</p>
+<p>HOW MUCH OF A COMMITMENT DO YOU NEED FROM US?</p>
+<p>We hope to collect food every day of the week.</p>
+</div>
+</div>
+<div id="volunteer-recruitment" class="section level1">
+<h1><strong>VOLUNTEER RECRUITMENT</strong></h1>
+<div id="volunteer-training-process" class="section level2">
+<h2>volunteer training process</h2>
+<ol style="list-style-type: decimal">
+<li>Visit a night market event, assisting with setup, on nights staffed by one of the volunteer trainers. Trainers will outline the various types of assistance that is needed. Different roles new volunteers could be interested in include:</li>
+</ol>
+<ul>
+<li>food pick-up</li>
+<li>restaurant recruiting</li>
+<li>social media</li>
+<li>build</li>
+</ul>
+<ol start="2" style="list-style-type: decimal">
+<li><p>Get trained on how to hook a bike trailers to your bike, orient with the items needed (where all the materials needed for food recovery are located), and have a safety check completed on your bike. Contact bike team.</p></li>
+<li><p>Shadow a pick up with one of the pick-up team members, retrieving a bike trailer (and items) from HQ as needed.</p></li>
+<li><p>Figure out where you can be most helpful. What nights, what efforts, and what else you are able to help out with. Communicate with the volunteer trainers via email or text.</p></li>
+</ol>
+<p>Methods of communication though volunteer training:</p>
+<ul>
+<li>First, email/text.</li>
+<li>Second, Slack, added after they completed a shadow night.</li>
+</ul>
+</div>
+<div id="methods-of-recruitment" class="section level2">
+<h2>methods of recruitment</h2>
+<ul>
+<li><p>Messages of interest on social media</p></li>
+<li><p>Messages of interest by email, through website, flyers…</p></li>
+</ul>
+</div>
+</div>
+
+
+
+</div>
+</div>
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+<script>
+$(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

@@ -1,13 +1,100 @@
 ---
 title: "THE NIGHT MARKET"
-output: html_document
+output:
+  html_document:
+    toc: true
+    toc_float: true
 ---
 
-#### The Night Market is an environmentally sustainable community-based initiative that recovers excess high-quality prepared food and directly redistributes it to feed local communities in a stigma-free environment, directly addressing both food waste and food access. 
+#### The Night Market is an environmentally sustainable community-based **food recovery organization**. We recover both cooked and non-perishable excess food, and redistribute to the community, no questions asked.
 
+#### We distribute food every **MONDAY-FRIDAY 9-11PM @ CENTRAL PARK (4th and C) in DAVIS, CA**. Come find us!!
+
+</h4><div class="main-photo"><img src="photos/DNM.PNG"></div></h4>
+
+
+# WHAT WE'RE ABOUT
+
+Our mission is to reduce our community's carbon footprint and increase equitable access to food through organized collective action. The Night Market strives for a non-hierarchical, anti-racist operating structure steeped in the ideals of radical inclusivity, climate change awareness, and dance parties :)
+
+Our broader mission is to empower other communities to start their own local food recovery systems. Here we provide guidelines and tutorials that can walk you through the steps of establishing our system in other cities (check out the DIY tab!!) Some of these resources are already available on the [Freedge Yourself webpage](https://freedge.org/freedge-yourself/).
 
 </h4><div class="main-photo"><img src="photos/1S9A8420.jpg"></div></h4>
 
 
+# DONORS
+
+#### Look for this sticker on windows in town to know a business is our partner! 
+
+</h4><div class="main-photo"><img src="photos/NightMarketPartnerSticker.png"></div></h4>
+
+
+
+#### Meet the amazing businesses that are contributing to their community in Davis, CA. Thank you all!!
+
+
+<br>
+ <p style="text-align:center;">
+      <a href="https://www.gochickpeas.com/">
+         <img src="donors/chickps.png" style="width:150px;height:100px;">
+      </a></p>
+
+
+<br>
+<p style="text-align:center;">
+      <a href="https://www.sophiasthaikitchen.com/">
+        <img src="donors/sophias.png"style="width:150px;height:100px;">
+      </a>
+      </p>
+
+<br>
+ <p style="text-align:center;">
+      <a href="https://davisfood.coop/">
+         <img src="donors/coop.png"style="width:100px;height:100px;">
+      </a></p>
+
+
+
+<br>
+<p style="text-align:center;">
+      <a href="https://locations.panerabread.com/ca/davis/609-3rd-st.html">
+        <img src="donors/panera.jpg"style="width:150px;height:100px;">
+      </a></p>
+
+
+<br>
+<p style="text-align:center;">
+      <a href="https://www.yelp.com/biz/village-bakery-davis">
+        <img src="donors/VillageBakery.png"style="width:150px;height:100px;">
+      </a></p>
+      
+<br>
+<p style="text-align:center;">
+      <a href="https://www.capayfarms.com/">
+        <img src="donors/capay.png"style="width:150px;height:100px;">
+      </a></p>
+<br>
+<p style="text-align:center;">
+      <a href="https://locations.noahs.com/us/ca/davis/1411-w-covell-blvd">
+        <img src="donors/noahs.png"style="width:150px;height:100px;">
+      </a></p>
+
+<br>
+<p style="text-align:center;">
+      <a href="https://locations.peets.com/ll/US/CA/Davis/231-E-Street">
+        <img src="donors/peets.png"style="width:150px;height:100px;">
+      </a></p>
+
+
+
+# DONATE
+
+## become a donor!!
+email us at 
+<a href = "mailto: nightmarket@freedge.org"> nightmarket@freedge.org</a> and we'll get back to you ASAP!!!!!!
+
+## pay us money!
+
+[GoFundMe](https://www.gofundme.com/f/davis-night-market-fund)
 
 

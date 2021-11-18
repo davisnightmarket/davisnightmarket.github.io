@@ -11,12 +11,14 @@ navbar:
   left:
   - text: mission
     href: mission.html
-  - text: donors
-    href: donors.html
-  - text: donate
-    href: donate.html
-  - text: diy
-    href: diy.html
+  - text: DIY
+    menu:
+    - text: how to do food recovery
+      href: how_to_nm.html
+    - text: build night market stuff
+      href: build_stuff.html
+    - text: how to do night market legally (optional)
+      href: legal.html
   - text: team
     href: team.html
   - text: get in touch
@@ -29,6 +31,8 @@ navbar:
       href: https://twitter.com/DavisNightMrkt
     - icon: fa-facebook
       href: https://www.facebook.com/davisnightmarket
+    - icon: fab fa-github
+      href: https://github.com/davisnightmarket
     
       
       
