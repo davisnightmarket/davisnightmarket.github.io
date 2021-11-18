@@ -6,7 +6,9 @@ output:
     toc_float: true
 ---
 
-#### The Night Market is an environmentally sustainable community-based **food recovery organization**. We recover both cooked and non-perishable excess food, and redistribute to the community, no questions asked.
+#### The Night Market is an environmentally sustainable community-based **food recovery organization**. 
+
+#### We recover both cooked and non-perishable excess food, and redistribute to the community, no questions asked. 
 
 #### We distribute food every **MONDAY-FRIDAY 9-11PM @ CENTRAL PARK (4th and C) in DAVIS, CA**. Come find us!!
 
@@ -18,8 +20,6 @@ output:
 Our mission is to reduce our community's carbon footprint and increase equitable access to food through organized collective action. The Night Market strives for a non-hierarchical, anti-racist operating structure steeped in the ideals of radical inclusivity, climate change awareness, and dance parties :)
 
 Our broader mission is to empower other communities to start their own local food recovery systems. Here we provide guidelines and tutorials that can walk you through the steps of establishing our system in other cities (check out the DIY tab!!) Some of these resources are already available on the [Freedge Yourself webpage](https://freedge.org/freedge-yourself/).
-
-</h4><div class="main-photo"><img src="photos/1S9A8420.jpg"></div></h4>
 
 
 # DONORS
@@ -97,4 +97,10 @@ email us at
 
 [GoFundMe](https://www.gofundme.com/f/davis-night-market-fund)
 
+# VOLUNTEER 
+
+email us at 
+<a href = "mailto: nightmarket@freedge.org"> nightmarket@freedge.org</a> or come visit us the night market (M-F 9-11pm) and chat with us!! We're nice, we promise :)  
+
+</h4><div class="main-photo"><img src="photos/1S9A8420.jpg"></div></h4>
 
