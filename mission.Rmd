@@ -10,11 +10,11 @@ output:
 </h4><div class="main-photo"><img src="photos/forkheartdnm.png" style="width:100px;height:100px;">
 
 
-# MISSION
+# **MISSION**
 
 The Night Market is a community-based, environmentally-sustainable food recovery organization that recovers and redistributes cooked and non-perishable food that would otherwise go to waste in a stigma-free environment. The Night Market's mission is to reduce a community's carbon footprint and increase equitable access to food through organized collective action. We strive for a non-hierarchical, anti-racist, mutual aid operating structure steeped in the ideals of radical inclusivity, climate change awareness, and dance parties :) We aim to ignite a movement of sustainable, inclusive food waste recovery and redistribution that can be replicated anywhere, empowering people and building community in the process. 
 
-# CORE VALUES
+# **CORE VALUES**
 
 ### Environmental sustainability
 We commit to disengage from practices that harm our communities and our planet in order to work toward a healthier future for all. We aim to move all food without the use of fossil fuels. 
@@ -43,19 +43,7 @@ We keep our minds and hearts open to engage in a constant learning/unlearning pr
 
 (paraphrased from Mutual Aid, Dean Spade 2020)
 
-# GOALS
-
-## Overarching goal
-
-### Community-based food waste recovery and redistribution that can be replicated anywhere
-
-The overarching aim of our organization is to ignite a movement of environmentally sustainable and inclusive food waste recovery and redistribution that can be replicated anywhere, empowering communities to close the gap between food waste and food insecurity.
-
-### Replicate this in your community 
-
-Check out our [DIY tutorials and guidelines](https://davisnightmarket.github.io/diy) to get started with Night Market in your own community!!! 
-
-## Local goals
+# **GOALS**
 
 ### Decrease food waste
 
@@ -78,6 +66,14 @@ We create a space, curated with lights and music to provide a safe and inviting 
 ### Bring awareness of food waste, food access and insecurity, and sustainability
 
 Creating awareness about the issue of food waste in the context of food insecurity and climate change, and proving that another way is possible is an important part of our ethos. Our bike carts and redistribution events are lighted with LEDs, thus giving visibility to the amounts of food waste and bringing attention to our net-zero choice of transportation. 
+
+### Create a community-based food waste recovery and redistribution that can be replicated anywhere
+
+The overarching aim of our organization is to ignite a movement of environmentally sustainable and inclusive food waste recovery and redistribution that can be replicated anywhere, empowering communities to close the gap between food waste and food insecurity.
+
+**Replicate this in your community!!**
+
+Check out our DIY section to learn how to get started with Night Market in your own community :) 
 
 
 
