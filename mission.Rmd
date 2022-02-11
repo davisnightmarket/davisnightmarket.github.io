@@ -11,28 +11,31 @@ output:
 
 
 # MISSION
-The Night Market is an environmentally sustainable community-based initiative that recovers excess food, both cooked and non-perishable, and directly redistributes it in a stigma-free environment.
+
+The Night Market is a community-based, environmentally-sustainable food recovery organization that recovers and redistributes cooked and non-perishable food that would otherwise go to waste in a stigma-free environment. The Night Market's mission is to reduce a community's carbon footprint and increase equitable access to food through organized collective action. We strive for a non-hierarchical, anti-racist, mutual aid operating structure steeped in the ideals of radical inclusivity, climate change awareness, and dance parties :) We aim to ignite a movement of sustainable, inclusive food waste recovery and redistribution that can be replicated anywhere, empowering people and building community in the process. 
 
 # CORE VALUES
 
 ### Environmental sustainability
-we are committed to disengage from practices that harm our communities and our planet in order to work toward a healthier future for all
+We commit to disengage from practices that harm our communities and our planet in order to work toward a healthier future for all. We aim to move all food without the use of fossil fuels. 
 
 ### Inclusivity
 
-we will not discriminate based on age, race, color, gender, gender expression, sexuality, ability or economic status in our activities. These include our food distribution events, where we will not require proof of need to participate
+We do not discriminate based on age, race, color, gender, gender expression, sexuality, ability, housing, or economic status. We do not require proof of need to receive food. 
 
 ### Equity and justice
 
-We are committed to promoting food justice, environmental justice, social justice, and all other forms of justicein our communi dismantling the systems of oppression that drive inequity in our society
+We promote food justice, environmental justice, racial justice, social justice, and all other non-violent justices to dismantle oppressive forces that drive inequity. 
 
 ### Community and collaboration
 
-we integrate our organization and its activities into the local network of individuals, entities and agencies focused on mutual aid in our community. We will also share our knowledge freely in order to work together towards a more sustainable and equitable future
+We integrate our organization and its activities with other individuals, entities and agencies focused on mutual aid in our community. We share our knowledge and food freely. 
+
 
 ### Learning and humility
 
-we are committed to keeping our minds and hearts open and to engage in a constant learning/unlearning process to better take care of each other and our community
+We keep our minds and hearts open to engage in a constant learning/unlearning process to better take care of each other and our community.
+
 
 ### Working with joy
 
@@ -54,13 +57,27 @@ Check out our [DIY tutorials and guidelines](https://davisnightmarket.github.io/
 
 ## Local goals
 
-### 1. Decrease food waste
-### 2. Increase stigma-free food access
-### 3. Promote environmental sustainability
-### 4. Build and empower community
-### 5. Bring awareness and educate about food waste, food insecurity and sustainability.
+### Decrease food waste
 
-We lower the barriers involved in both food donation and collection, creating radically accessible community-level food redistribution networks. In contrast to other food recovery organizations, **we do not require proof of need for community members to receive food donations**, thus reducing social stigma and barriers associated with food access. The goal is to encourage people to view collecting excess food as a positive experience and to reduce the stigma around food insecurity, all while dramatically increasing access. The **food recoveries we perform are as sustainable as possible** as we use bike carts for cargo and transportation and compostable waxed carton boxes for packaging. In this way, we also bring environmental awareness to the issues associated with food waste and transportation. Operating at a hyperlocal scale, we are able to recover and quickly redistribute nutritious food that might be beneath the quantity threshold for larger organizations.
+Operating at a hyper-local scale, we are able to recover and quickly redistribute nutritious food that might be beneath the quantity threshold for larger organizations.
+
+### Increase stigma-free food access
+
+In contrast to other food recovery organizations, we do not require proof of need for community members to receive food donations, thus reducing social stigma and barriers associated with food access. The goal is to encourage people to view collecting excess food as a positive experience and to reduce the stigma around food insecurity, all while dramatically increasing access.
+
+
+### Promote environmental sustainability
+
+The food recoveries we perform are as sustainable as possible. We use bike carts for transporting food and compostable waxed carton boxes for packaging. In this way, we also bring environmental awareness to the issues associated with food waste and transportation.
+
+
+### Build and empower community
+
+We create a space, curated with lights and music to provide a safe and inviting environment where community members can come together over food, and provide a framework to engage in mutual aid and support each other outside of the system. In this spirit we engage and support other similarly aligned organizations and actions in our community.
+
+### Bring awareness of food waste, food access and insecurity, and sustainability
+
+Creating awareness about the issue of food waste in the context of food insecurity and climate change, and proving that another way is possible is an important part of our ethos. Our bike carts and redistribution events are lighted with LEDs, thus giving visibility to the amounts of food waste and bringing attention to our net-zero choice of transportation. 
 
 
 
