@@ -5,6 +5,9 @@ output:
     toc: true
     toc_float: true
 ---
+<head>
+<meta name="google-site-verification" content="DYOxv5fuCLyEKW26NxfAm9M9lsbGNH-7ldv05tpDJKo" />
+<head>
 
 #### The Night Market is an environmentally sustainable community-based **food recovery organization**. 
 
