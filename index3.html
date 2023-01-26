@@ -35,11 +35,17 @@
 
             .title-box {
                 color: brown;
-                padding: 200px 80px;
+                padding: 10px;
                 background-image: url("/photos/1S9A8450.jpg");
                 background-repeat: no-repeat;
                 background-size: cover;
                 background-position: left center;
+            }
+
+            @media (min-width: 600px) {
+                .title-box {
+                    padding: 200px 80px;
+                }
             }
 
             .content p {
@@ -56,7 +62,7 @@
             }
 
             .content {
-                width: 800px;
+                max-width: 800px;
                 margin: auto;
                 padding: 10px;
             }
@@ -75,14 +81,21 @@
             }
 
             .side-bar {
-                width: 200px;
-                min-width: 200px;
                 background-color: lightgreen;
+                margin: 10px;
             }
 
-            .row {
-                flex-direction: row;
-                display: inline-flex;
+            @media (min-width: 600px) {
+                .row  {
+                    flex-direction: row;
+                    display: inline-flex;
+                }
+
+                .side-bar {
+                    width: 200px;
+                    min-width: 200px;
+                    margin: 0px;
+                }
             }
 
             .fa-instagram {
