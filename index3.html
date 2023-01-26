@@ -4,6 +4,8 @@
     <head>
         <title>Night Market</title>
 
+        <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+
         <style>
             * {
                 font-family: Arial, Helvetica, sans-serif;
@@ -52,7 +54,7 @@
             }
 
             .content {
-                width: 600px;
+                width: 800px;
                 margin: auto;
                 padding: 10px;
             }
@@ -69,6 +71,18 @@
                 text-align: center;
                 padding: 5px;
             }
+
+            .side-bar {
+                width: 200px;
+                min-width: 200px;
+                background-color: blue;
+            }
+
+            .row {
+                flex-direction: row;
+                display: inline-flex;
+            }
+
         </style>
     </head>
     <body>
@@ -77,35 +91,40 @@
             <p class="subtitle"><b>Free food</b> Monday through Friday 9:00 - 11:00 pm @ Central Park</p>
         </div>
         <div class="content">
-            <p class="section">Help out</p>
-            <p>
-                We're at the park from 9 to 11 pm every week day.
-                The best way to get started is just to show up and hang out!
-                If you want to bring stuff, more lights are always a plus.
-            </p>
+            <div class="row">
+                <div class="side-bar">
+                    <i class="fa fa-instagram"></i>
+                </div>
+            
+                <div class="section-box">
+                    <p class="section">Help out</p>
+                    <p>
+                        We're at the park from 9 to 11 pm every week day.
+                        The best way to get started is just to show up and hang out!
+                        If you want to bring stuff, more lights are always a plus.
+                    </p>
 
-            <p>We're currently looking for:</p>
-            <ul>
-                <li>a photographer</li>
-                <li>a webdesigner</li>
-                <li>artists</li>
-            </ul>
+                    <p>We're currently looking for:</p>
+                    <ul>
+                        <li>a photographer</li>
+                        <li>a webdesigner</li>
+                        <li>artists</li>
+                    </ul>
 
-            <p>
-                For more info or if you any questions, you can email us at nightmarket@freedge.org.
-                We look forwards to seeing you soon!
-            </p>
+                    <p>
+                        For more info or if you any questions, you can email us at nightmarket@freedge.org.
+                        We look forwards to seeing you soon!
+                    </p>
 
-            <p class="section">Give food</p>
-            <p>
-                Email us at nightmarket@freedge.org and we'll get back to you ASAP!!!!!!
-            </p>
-
-            <p class="section">Our donors</p>
-            <p>Donor pictures (TODO)</p>
-
-            <p class="section">Our team</p>
-            <p>Who want's there picture here? (TODO)</p>
+                    <p class="section">Beacome a Donar</p>
+                    <p>
+                        For restaurants and business email us at nightmarket@freedge.org and we'll get back to you ASAP!!!!!!
+                    </p>
+                    <p>
+                        For individuals, drop by and bring the food!
+                    </p>
+                </div>
+            </div>
         </div>
         <div class="footer">
             <p>nightmarket@freedge.org</p>
