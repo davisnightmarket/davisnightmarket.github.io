@@ -5,6 +5,7 @@
         <title>Night Market</title>
 
         <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+        <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 
         <style>
             * {
@@ -50,7 +51,8 @@
                 font-weight: bold;
                 text-align: center;
                 font-style: italic;
-                margin: 10px 0px;
+                margin: 0px 10px;
+                background-color: lightblue;
             }
 
             .content {
@@ -75,7 +77,7 @@
             .side-bar {
                 width: 200px;
                 min-width: 200px;
-                background-color: blue;
+                background-color: lightgreen;
             }
 
             .row {
@@ -83,6 +85,35 @@
                 display: inline-flex;
             }
 
+            .fa-instagram {
+                font-size: 30px;
+            }
+
+            .fa-facebook {
+                font-size: 23px;
+            }
+
+            .fa-github {
+                font-size: 28px;
+            }
+
+            .fa-envelope {
+                font-size: 30px;
+            }
+
+            .fa {
+                vertical-align: middle;
+                padding: 0px 1px;
+            }
+
+            .soc-box {
+                padding: 10px;
+                text-align: center;
+            }
+
+            .center {
+                margin: auto;
+            }
         </style>
     </head>
     <body>
@@ -93,7 +124,14 @@
         <div class="content">
             <div class="row">
                 <div class="side-bar">
-                    <i class="fa fa-instagram"></i>
+                    <div class="soc-box">
+                        <i class="fa fa-minus soc-icon"></i>
+                        <i class="fa fa-instagram soc-icon"></i>
+                        <i class="fa fa-facebook soc-icon"></i>
+                        <i class="fa fa-github soc-icon"></i>
+                        <i class="fa fa-envelope soc-icon"></i>
+                        <i class="fa fa-minus soc-icon"></i>
+                    </div>
                 </div>
             
                 <div class="section-box">
@@ -116,7 +154,7 @@
                         We look forwards to seeing you soon!
                     </p>
 
-                    <p class="section">Beacome a Donar</p>
+                    <p class="section">Become a Donor</p>
                     <p>
                         For restaurants and business email us at nightmarket@freedge.org and we'll get back to you ASAP!!!!!!
                     </p>
