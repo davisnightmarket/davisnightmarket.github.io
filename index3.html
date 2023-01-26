@@ -83,6 +83,7 @@
             .side-bar {
                 background-color: lightgreen;
                 margin: 10px;
+                padding-bottom: 5px;
             }
 
             @media (min-width: 600px) {
@@ -127,6 +128,20 @@
             .center {
                 margin: auto;
             }
+
+            .nav {
+                margin: 5px 10px;
+                padding: 5px;
+                background-color: white;
+                text-align: center;
+                display: block;
+                color: black;
+                text-decoration: none;
+            }
+
+            .nav:hover { 
+                background-color: blue;
+            }
         </style>
     </head>
     <body>
@@ -145,10 +160,14 @@
                         <i class="fa fa-envelope soc-icon"></i>
                         <i class="fa fa-minus soc-icon"></i>
                     </div>
+                        
+                    <a class="nav" href="#help">Help Out</a>
+                    <a class="nav" href="#donor">Become a Donor</a>
+                    <a class="nav" href="index.html">NM Wiki</a>
                 </div>
             
                 <div class="section-box">
-                    <p class="section">Help out</p>
+                    <p class="section" id="help">Help Out</p>
                     <p>
                         We're at the park from 9 to 11 pm every week day.
                         The best way to get started is just to show up and hang out!
@@ -158,7 +177,6 @@
                     <p>We're currently looking for:</p>
                     <ul>
                         <li>a photographer</li>
-                        <li>a webdesigner</li>
                         <li>artists</li>
                     </ul>
 
@@ -167,7 +185,7 @@
                         We look forwards to seeing you soon!
                     </p>
 
-                    <p class="section">Become a Donor</p>
+                    <p class="section" id="donor">Become a Donor</p>
                     <p>
                         For restaurants and business email us at nightmarket@freedge.org and we'll get back to you ASAP!!!!!!
                     </p>
