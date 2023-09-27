@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Pickups</title>
+
+    <meta charset="utf-8" />
+
+    <style>
+        #days {
+            display: flex;
+            flex-direction: row;
+        }
+
+        #days label {
+            flex: 1;
+        }
+
+        #days label div {
+            padding: 5px;
+            margin: 1px;
+            color: white;
+            background-color: gray;
+            display: flex;
+            text-align: center;
+        }
+
+        #days label div span {
+            margin: auto;
+        }
+
+        #days input[type="radio"]:checked ~ * {
+            background-color: lightblue;
+        }
+
+        input[type=radio] {
+            display: none;
+        }
+
+        #days :first-child div {
+            border-radius: 10px 0px 0px 10px;
+        }
+
+        #days :last-child div {
+            border-radius: 0px 10px 10px 0px;
+        }
+
+        #pickups {
+            padding: 0px 10px;
+        }
+
+        .pickup {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .org {
+            font-weight: bold;
+            padding-right: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="main">
+        <div id="days">
+            <label><input type="radio" name="day" checked><div><span>Mon</span></div></label>
+            <label><input type="radio" name="day"><div><span>Tue</span></div></label>
+            <label><input type="radio" name="day"><div><span>Wed</span></div></label>
+            <label><input type="radio" name="day"><div><span>Thu</span></div></label>
+            <label><input type="radio" name="day"><div><span>Fri</span></div></label>
+        </div>
+        <div id="pickups">
+
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        async function main() {
+            const rows = await fetch("./pickups.json").then((res) => res.json())
+            const pickups = rows
+                .filter(row => row.length > 0)
+                .map(row => ({
+                    day: row[0],
+                    time: row[1],
+                    org: row[2],
+                    volunteers: [row[3], row[4], row[5]].filter((name) => name != "" && name != "NEEDED"),
+                    noe: row[6]
+                }))
+
+            // select inital day and add callbacks for when it changes
+            selectDate("Wed".toLowerCase())
+            document.querySelectorAll("#days label").forEach(label => {
+                label.onchange = () => selectDate(label.querySelector("span").innerText.toLowerCase())
+            })
+
+            function selectDate(day) {
+                document.getElementById("pickups").replaceChildren(
+                    ...pickups
+                        .filter(pickup => pickup.day.startsWith(day))
+                        .map(createPickupEl)
+                )
+            }
+
+            function el(tag, ...children) {
+                const [name, classes] = tag.split(".")
+                const el = document.createElement(name)
+                el.classList = classes
+                el.replaceChildren(...children)
+                return el 
+            }
+
+            function createPickupEl(pickup) {
+                return el("div.pickup",
+                    el("span.org", pickup.org),
+                    el("span.time", pickup.time),
+                )
+            }
+        }
+
+        main()
+    </script>
+</body>
+
+</html>
