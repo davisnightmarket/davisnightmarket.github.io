@@ -83,6 +83,10 @@
             border-radius: 20px;
         }
 
+        .button.plain {
+            background: none;
+        }
+
         .button.gray {
             background: rgb(240, 240, 240);
             color: black;
@@ -112,8 +116,13 @@
             border-radius: 10px;
         }
 
-        .header {
-            padding-bottom: 10px;
+        .footer {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .flex {
+            flex: 1;
         }
     </style>
 </head>
@@ -210,18 +219,34 @@
                 document.getElementById("popup").style.display = "none"
             }
 
+
             function createPickupEl(pickup) {
+                const actionButton = 
+                        needsVolenteer(pickup) ? el("span.button.red", "NEEDED") :
+                        amISignedUp(pickup) ? el("span.button", "It's you!") :
+                            el("span.button.gray", "Shadow");
+
                 const pickupEl = el("div.pickup",
                     el("span.org", getNickname(pickup.org)),
                     el("span.time", pickup.time),
-                    needsVolenteer(pickup) ? el("div.button.red", "NEEDED") :
-                    amISignedUp(pickup) ? el("div.button", "It's you!") :
-                        el("div.button.gray", "Shadow"),
+                    actionButton,
                 )
 
                 pickupEl.onclick = () => showPopup(el("div",
                     el("div.header", el("span.org", pickup.org), el("span", pickup.time)),
-                    el("div", pickup.note)
+                    el("p", pickup.note),
+                    el("p",
+                        amISignedUp(pickup) ? "It's you! You're the one doing te pick up!" :
+                        needsVolenteer(pickup) ? "Help! No one is doing this pick up right now :(" :
+                            "Someone got this pick up covered, but the more the merrier :)"
+                    ),
+                    el("div.footer", 
+                            amISignedUp(pickup) ? el("span.button", "I can no longer do the pick up") :
+                            needsVolenteer(pickup) ? el("span.button", "I can do the pick up") :
+                                el("span.button", "I can help with the pick up"),
+                            el("span.flex"),
+                            el("span.button.plain", "X")
+                    )
                 ))
 
                 return pickupEl
