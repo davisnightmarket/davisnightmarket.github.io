@@ -76,6 +76,16 @@
             text-align: center;
             border-radius: 20px;
         }
+
+        .button.gray {
+            background-color: darkgray;
+            color: black;
+        }
+
+        .button.red {
+            background-color: red;
+            color: black;
+        }
     </style>
 </head>
 
@@ -120,9 +130,9 @@
             }
 
             function el(tag, ...children) {
-                const [name, classes] = tag.split(".")
+                const [name, ...classes] = tag.split(".")
                 const el = document.createElement(name)
-                el.classList = classes
+                el.classList = classes.join(" ")
                 el.replaceChildren(...children)
                 return el 
             }
@@ -134,6 +144,8 @@
                     "Davis Farmer's Market": "Farmer's Market",
                     "Sophia's Thai Kitchen": "Sophia's",
                     "Insomnia Cookies": "Insomnia",
+                    "Upper Crust Baking Co": "Upper Crust",
+                    "Davis Community Meals": "DCM",
                 }
 
                 if (name in nicknames) {
@@ -143,11 +155,24 @@
                 }
             }
 
+
+            function needsVolenteer(pickup) {
+                return pickup.volunteers.length === 0
+            }
+
+            function amISignedUp(pickup) {
+                const user = "Felix"
+
+                return pickup.volunteers.includes(user)
+            }
+
             function createPickupEl(pickup) {
                 return el("div.pickup",
                     el("span.org", getNickname(pickup.org)),
                     el("span.time", pickup.time),
-                    el("div.button", "I've got it")
+                    needsVolenteer(pickup) ? el("div.button", "I've got it") :
+                    amISignedUp(pickup) ? el("div.button.red", "Cancel") :
+                        el("div.button.gray", "Shadow"),
                 )
             }
         }
