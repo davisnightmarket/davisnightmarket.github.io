@@ -46,34 +46,33 @@
             border-radius: 0px 10px 10px 0px;
         }
 
-        #pickups {
-            padding: 5px;
+        #pickups>div:nth-of-type(even) {
+            background-color: antiquewhite;
         }
 
         .pickup {
             display: flex;
             flex-direction: row;
-            padding: 2px;
+            padding: 8px;
             
-            justify-content: center;
-            align-items: center;
+            justify-content: baseline;
+            align-items:baseline;
         }
 
         .org {
             font-weight: bold;
             padding-right: 10px;
-            border-bottom: 1px solid black;
+            vertical-align: text-bottom;
         }
 
         .time {
             flex: 1;
-            border-bottom: 1px solid black;
         }
 
         .button {
             padding: 5px 15px;
             color: white;
-            background-color: gray;
+            background-color: green;
             text-align: center;
             border-radius: 20px;
         }
@@ -90,7 +89,6 @@
             <label><input type="radio" name="day"><div><span>Fri</span></div></label>
         </div>
         <div id="pickups">
-
         </div>
     </div>
 
@@ -149,7 +147,7 @@
                 return el("div.pickup",
                     el("span.org", getNickname(pickup.org)),
                     el("span.time", pickup.time),
-                    el("div.button", "I got it!")
+                    el("div.button", "I've got it")
                 )
             }
         }
