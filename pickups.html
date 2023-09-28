@@ -59,6 +59,7 @@
             display: flex;
             flex-direction: row;
             padding: 8px;
+            margin: 1px 0px;
             
             justify-content: baseline;
             align-items:baseline;
@@ -76,21 +77,22 @@
 
         .button {
             padding: 5px 15px;
-            color: white;
-            background-color: green;
+            color: black;
+            background-color: #87cefa;
             text-align: center;
             border-radius: 20px;
         }
 
         .button.gray {
-            background-color: darkgray;
+            background: rgb(240, 240, 240);
             color: black;
         }
 
         .button.red {
-            background-color: red;
+            background-color: #D14B49;
             color: black;
         }
+
     </style>
 </head>
 
@@ -172,11 +174,11 @@
             }
 
             function createPickupEl(pickup) {
-                return el("div.pickup",
+                return el(needsVolenteer(pickup) ? "div.pickup.red" : "div.pickup",
                     el("span.org", getNickname(pickup.org)),
                     el("span.time", pickup.time),
-                    needsVolenteer(pickup) ? el("div.button", "I've got it") :
-                    amISignedUp(pickup) ? el("div.button.red", "Cancel") :
+                    needsVolenteer(pickup) ? el("div.button.red", "NEEDED") :
+                    amISignedUp(pickup) ? el("div.button", "It's you!") :
                         el("div.button.gray", "Shadow"),
                 )
             }
