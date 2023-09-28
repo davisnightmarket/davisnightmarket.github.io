@@ -93,6 +93,27 @@
             color: black;
         }
 
+        #popup {
+            display: none;
+            background-color: rgba(0, 0, 0, 0.5);
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            flex-direction: column;
+        }
+
+        #popup>div {
+            background-color: white;
+            margin: 20px;
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        .header {
+            padding-bottom: 10px;
+        }
     </style>
 </head>
 
@@ -109,6 +130,9 @@
         </div>
     </div>
 
+    <div id="popup">
+    </div>
+
     <script type="text/javascript">
         async function main() {
             const rows = await fetch("./pickups.json").then((res) => res.json())
@@ -121,6 +145,8 @@
                     volunteers: [row[3], row[4], row[5]].filter((name) => name != "" && name != "NEEDED"),
                     note: row[7]
                 }))
+
+            document.querySelector("#popup").onclick = hidePopup
 
             // select inital day and add callbacks for when it changes
             selectDate("Mon".toLowerCase())
@@ -173,6 +199,16 @@
                 return pickup.volunteers.includes(user)
             }
 
+            function showPopup(...children) {
+                const popup = document.getElementById("popup")
+                popup.replaceChildren(...children)
+                popup.style.display = "block"
+            }
+
+            function hidePopup() {
+                document.getElementById("popup").style.display = "none"
+            }
+
             function createPickupEl(pickup) {
                 const pickupEl = el("div.pickup",
                     el("span.org", getNickname(pickup.org)),
@@ -182,7 +218,10 @@
                         el("div.button.gray", "Shadow"),
                 )
 
-                pickupEl.onclick = () => alert(pickup.note)
+                pickupEl.onclick = () => showPopup(el("div",
+                    el("div.header", el("span.org", pickup.org), el("span", pickup.time)),
+                    el("div", pickup.note)
+                ))
 
                 return pickupEl
             }
