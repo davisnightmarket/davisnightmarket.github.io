@@ -94,7 +94,7 @@
         }
 
         #popup {
-            display: none;
+            display: flex;
             background-color: rgba(0, 0, 0, 0.5);
             position: fixed;
             top: 0;
@@ -102,6 +102,7 @@
             left: 0;
             right: 0;
             flex-direction: column;
+            justify-content: center;
         }
 
         #popup>div {
@@ -131,6 +132,7 @@
     </div>
 
     <div id="popup">
+        <div>hello</div>
     </div>
 
     <script type="text/javascript">
@@ -202,7 +204,7 @@
             function showPopup(...children) {
                 const popup = document.getElementById("popup")
                 popup.replaceChildren(...children)
-                popup.style.display = "block"
+                popup.style.display = "flex"
             }
 
             function hidePopup() {
