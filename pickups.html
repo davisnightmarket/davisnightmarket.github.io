@@ -119,11 +119,11 @@
                     time: row[1],
                     org: row[2],
                     volunteers: [row[3], row[4], row[5]].filter((name) => name != "" && name != "NEEDED"),
-                    noe: row[6]
+                    note: row[7]
                 }))
 
             // select inital day and add callbacks for when it changes
-            selectDate("Wed".toLowerCase())
+            selectDate("Mon".toLowerCase())
             document.querySelectorAll("#days label").forEach(label => {
                 label.onchange = () => selectDate(label.querySelector("span").innerText.toLowerCase())
             })
@@ -174,13 +174,17 @@
             }
 
             function createPickupEl(pickup) {
-                return el(needsVolenteer(pickup) ? "div.pickup.red" : "div.pickup",
+                const pickupEl = el("div.pickup",
                     el("span.org", getNickname(pickup.org)),
                     el("span.time", pickup.time),
                     needsVolenteer(pickup) ? el("div.button.red", "NEEDED") :
                     amISignedUp(pickup) ? el("div.button", "It's you!") :
                         el("div.button.gray", "Shadow"),
                 )
+
+                pickupEl.onclick = () => alert(pickup.note)
+
+                return pickupEl
             }
         }
 
