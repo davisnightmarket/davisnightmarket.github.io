@@ -1,0 +1,25 @@
+{
+    "name": "davisnightmarket.github.io",
+    "version": "0.0.0",
+    "description": "The Davis Night Market Website",
+    "main": "index.js",
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "next": "^14.2.3",
+        "react": "^18.3.1",
+        "react-dom": "^18.3.1"
+    },
+    "devDependencies": {
+        "@types/node": "20.12.8",
+        "@types/react": "18.3.1",
+        "typescript": "5.4.5"
+    }
+}
