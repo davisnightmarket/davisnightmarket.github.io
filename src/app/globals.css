@@ -5,6 +5,7 @@
 #header {
   background-color: gray;
   display: flex;
+  padding: 0px 100px;
 }
 
 #header a {
